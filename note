@@ -1,0 +1,1917 @@
+{
+  "item": {
+    "id": 178,
+    "additionalAddressInformation": "",
+    "address1": "2 & 3 Bellhanger Business Park",
+    "address2": null,
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "2 & 3 Bellhanger Business Park",
+    "billingAddress2": "",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Bentworth, Alton",
+    "billToCountryID": null,
+    "billToState": "Hampshire",
+    "billToZipCode": "GU34 5QZ",
+    "city": "Bentworth, Alton",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Beau-Port Ltd",
+    "companyNumber": "",
+    "companyType": 6,
+    "competitorID": null,
+    "countryID": null,
+    "createDate": "2016-03-31T14:59:24.367Z",
+    "createdByResourceID": 29682885,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": null,
+    "invoiceNonContractItemsToParentCompany": null,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": false,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2018-11-16T15:48:31Z",
+    "lastTrackedModifiedDateTime": "2016-03-31T14:59:24.367Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682885,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 845 230 1545",
+    "postalCode": "GU34 5QZ",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Hampshire",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "www.beau-port-kitchens.com/",
+    "userDefinedFields": []
+  }
+},
+{
+  "item": {
+    "id": 179,
+    "additionalAddressInformation": "",
+    "address1": "Management Suite",
+    "address2": null,
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Management Suite",
+    "billingAddress2": "",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Bexleyheath",
+    "billToCountryID": 236,
+    "billToState": "Kent",
+    "billToZipCode": "DA6 7JN",
+    "city": "Bexleyheath",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Bexleyheath Shopping Centre",
+    "companyNumber": "",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T14:59:24.447Z",
+    "createdByResourceID": 29682888,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2023-03-21T15:33:03.48Z",
+    "lastTrackedModifiedDateTime": "2023-03-21T15:33:03.48Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 2083012956",
+    "postalCode": "DA6 7JN",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Kent",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": 2,
+    "territoryID": null,
+    "webAddress": "www.broadwayshoppingcentre.com",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "No"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": "2023-11-05T00:00:00.0000000"
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": "2020-01-30T00:00:00.0000000"
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "BroadwayShoppingCentre"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": null
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 180,
+    "additionalAddressInformation": "",
+    "address1": "Centre Management",
+    "address2": "Station Road",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Centre Management",
+    "billingAddress2": "Station Road",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Edgware",
+    "billToCountryID": 236,
+    "billToState": "",
+    "billToZipCode": "HA8 7BD",
+    "city": "Edgware",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Broadwalk Shopping Centre",
+    "companyNumber": "ABE001",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T14:59:24.79Z",
+    "createdByResourceID": 29682886,
+    "currencyID": 5,
+    "fax": "020 8905 6925",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2024-10-29T18:21:19.117Z",
+    "lastTrackedModifiedDateTime": "2024-10-29T18:21:19.117Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 20 8905 6303",
+    "postalCode": "HA8 7BD",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": 2,
+    "territoryID": null,
+    "webAddress": "www.thebroadwalkcentre.co.uk",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "Yes"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": "2023-09-30T00:00:00.0000000"
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": null
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "BroadwalkShoppingCentre"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": null
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 181,
+    "additionalAddressInformation": "",
+    "address1": "Unit 78, The Base",
+    "address2": "Victoria Road",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Unit 78, The Base",
+    "billingAddress2": "Victoria Road",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Dartford",
+    "billToCountryID": 236,
+    "billToState": "Kent",
+    "billToZipCode": "DA1 5FS",
+    "city": "Dartford",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Crosspath Services",
+    "companyNumber": "",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T14:59:25.507Z",
+    "createdByResourceID": 29682899,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2023-05-18T09:07:34.823Z",
+    "lastTrackedModifiedDateTime": "2023-05-18T09:07:34.823Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682916,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 1322 314733",
+    "postalCode": "DA1 5FS",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Kent",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "www.crosspathservices.com",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "No"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "No"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": null
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": "1970-01-01T00:00:00.0000000"
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "CrosspathServices"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": null
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 187,
+    "additionalAddressInformation": "",
+    "address1": "15 - 16 Howley Business Park",
+    "address2": "Howley Park Road",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "15 - 16 Howley Business Park",
+    "billingAddress2": "Howley Park Road",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Morley",
+    "billToCountryID": null,
+    "billToState": "Leeds",
+    "billToZipCode": "LS27 0BZ",
+    "city": "Morley",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Skye Direct",
+    "companyNumber": "SKY003",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": null,
+    "createDate": "2016-03-31T14:59:26.443Z",
+    "createdByResourceID": 29682885,
+    "currencyID": 5,
+    "fax": "0113 307 6441",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2022-11-21T09:03:40.36Z",
+    "lastTrackedModifiedDateTime": "2022-11-21T09:03:40.343Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682885,
+    "parentCompanyID": null,
+    "phone": "0113 307 6440",
+    "postalCode": "LS27 0BZ",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Leeds",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": 5,
+    "taxID": "",
+    "taxRegionID": 2,
+    "territoryID": null,
+    "webAddress": "www.skye-direct.com",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "No"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "No"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": null
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": "1970-01-01T00:00:00.0000000"
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "skyedirect"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": null
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 188,
+    "additionalAddressInformation": "",
+    "address1": "34 Millgate",
+    "address2": null,
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "34 Millgate",
+    "billingAddress2": "",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Newark",
+    "billToCountryID": null,
+    "billToState": "Nottinghamshire",
+    "billToZipCode": "NG24 4TS",
+    "city": "Newark",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "SPI Marine",
+    "companyNumber": "",
+    "companyType": 6,
+    "competitorID": null,
+    "countryID": null,
+    "createDate": "2016-03-31T14:59:26.597Z",
+    "createdByResourceID": 29682886,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": null,
+    "invoiceNonContractItemsToParentCompany": null,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": false,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2019-03-07T07:45:12Z",
+    "lastTrackedModifiedDateTime": "2016-03-31T14:59:26.597Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682886,
+    "parentCompanyID": null,
+    "phone": "0203 713 8855",
+    "postalCode": "NG24 4TS",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Nottinghamshire",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": null,
+    "userDefinedFields": []
+  }
+},
+{
+  "item": {
+    "id": 189,
+    "additionalAddressInformation": "",
+    "address1": "Kenwood House",
+    "address2": "77a Shelley Road",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Kenwood House",
+    "billingAddress2": "77a Shelley Road",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Borehamwood",
+    "billToCountryID": null,
+    "billToState": "Essex",
+    "billToZipCode": "WD6 1AG",
+    "city": "Borehamwood",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Connect98 (Text My Deal)",
+    "companyNumber": "TEX001",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": null,
+    "createDate": "2016-03-31T14:59:26.69Z",
+    "createdByResourceID": 29682899,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2024-10-01T08:33:00.283Z",
+    "lastTrackedModifiedDateTime": "2024-10-01T08:33:00.283Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "0330 122 2876",
+    "postalCode": "WD6 1AG",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Essex",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": 2,
+    "territoryID": null,
+    "webAddress": "connect98.com",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "No"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": "2025-04-13T00:00:00.0000000"
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": null
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "connect98"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": "No"
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 190,
+    "additionalAddressInformation": "",
+    "address1": "5 Swan Street",
+    "address2": null,
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "5 Swan Street",
+    "billingAddress2": "",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "West Malling",
+    "billToCountryID": 236,
+    "billToState": "Kent",
+    "billToZipCode": "ME19 6JU",
+    "city": "West Malling",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "The Swan",
+    "companyNumber": "THE001",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T14:59:26.74Z",
+    "createdByResourceID": 29682885,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2024-12-03T15:23:24.34Z",
+    "lastTrackedModifiedDateTime": "2024-12-03T15:23:24.34Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682885,
+    "parentCompanyID": null,
+    "phone": "01732 521918",
+    "postalCode": "ME19 6JU",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Kent",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": 2,
+    "territoryID": null,
+    "webAddress": "www.theswanwestmalling.co.uk",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "No"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "Yes"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": "2025-07-31T00:00:00.0000000"
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": null
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "theswan"
+      },
+      {
+        "name": "TLC Customer",
+        "value": null
+      },
+      {
+        "name": "Website Check Required",
+        "value": null
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 192,
+    "additionalAddressInformation": "",
+    "address1": null,
+    "address2": null,
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "",
+    "billingAddress2": "",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "",
+    "billToCountryID": null,
+    "billToState": "",
+    "billToZipCode": "",
+    "city": "",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Search Media Ltd",
+    "companyNumber": "",
+    "companyType": 6,
+    "competitorID": null,
+    "countryID": null,
+    "createDate": "2016-03-31T14:59:26.987Z",
+    "createdByResourceID": 29682885,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": null,
+    "invoiceNonContractItemsToParentCompany": null,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": false,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2018-11-16T14:58:54Z",
+    "lastTrackedModifiedDateTime": "2016-03-31T14:59:26.987Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682885,
+    "parentCompanyID": null,
+    "phone": "0203 151 6410",
+    "postalCode": "",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": null,
+    "userDefinedFields": []
+  }
+},
+{
+  "item": {
+    "id": 194,
+    "additionalAddressInformation": "",
+    "address1": "Unit 14",
+    "address2": "Perseverance Mills, Lockwood Scar",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Unit 14",
+    "billingAddress2": "Perseverance Mills, Lockwood Scar",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Lockwood",
+    "billToCountryID": 236,
+    "billToState": "Huddersfield",
+    "billToZipCode": "HD4 6BW",
+    "city": "Lockwood",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "ADG Engineering",
+    "companyNumber": "ADG001",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:12.433Z",
+    "createdByResourceID": 29682899,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2023-04-14T14:31:21.887Z",
+    "lastTrackedModifiedDateTime": "2023-04-14T14:31:21.887Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 1484 646100",
+    "postalCode": "HD4 6BW",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Huddersfield",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "https://adgeng.co.uk",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "Yes"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": "2016-08-31T00:00:00.0000000"
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": null
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "ADG"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": "No"
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 195,
+    "additionalAddressInformation": "",
+    "address1": "Penfield Marine (UK) Ltd",
+    "address2": "Becket House, Old Jewry",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Penfield Marine (UK) Ltd",
+    "billingAddress2": "Becket House, Old Jewry",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "London",
+    "billToCountryID": 236,
+    "billToState": "",
+    "billToZipCode": "EC2R 8DD",
+    "city": "London",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Penfield Marine",
+    "companyNumber": "",
+    "companyType": 6,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:12.98Z",
+    "createdByResourceID": 29682885,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": null,
+    "invoiceNonContractItemsToParentCompany": null,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": false,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2018-11-16T15:12:10Z",
+    "lastTrackedModifiedDateTime": "2016-03-31T15:18:12.98Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682885,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 2037000288",
+    "postalCode": "EC2R 8DD",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "www.penfieldmarine.com",
+    "userDefinedFields": []
+  }
+},
+{
+  "item": {
+    "id": 196,
+    "additionalAddressInformation": "",
+    "address1": "Unit 46",
+    "address2": "Acorn Industrial Park",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Unit 46",
+    "billingAddress2": "Acorn Industrial Park",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Crayford",
+    "billToCountryID": 236,
+    "billToState": "Kent",
+    "billToZipCode": "DA1 4AL",
+    "city": "Crayford",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Target Lifts",
+    "companyNumber": "TAR001",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:13.027Z",
+    "createdByResourceID": 29682899,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2025-05-13T14:55:04.787Z",
+    "lastTrackedModifiedDateTime": "2025-05-13T14:55:04.787Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "0845 301 1534",
+    "postalCode": "DA1 4AL",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Kent",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": 2,
+    "territoryID": null,
+    "webAddress": "https://www.targetliftsltd.co.uk",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "No"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": "2026-01-19T00:00:00.0000000"
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": null
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "targetlifts"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": "No"
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 198,
+    "additionalAddressInformation": "",
+    "address1": "1st Floor, 30 North Street",
+    "address2": null,
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "1st Floor, 30 North Street",
+    "billingAddress2": "",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Ashford",
+    "billToCountryID": 236,
+    "billToState": "Kent",
+    "billToZipCode": "TN24 8JR",
+    "city": "Ashford",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Chandler Tuck",
+    "companyNumber": "",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:13.15Z",
+    "createdByResourceID": 29682899,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2024-08-06T12:45:51.517Z",
+    "lastTrackedModifiedDateTime": "2024-08-06T12:45:51.517Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "+44 (0)1233 629718",
+    "postalCode": "TN24 8JR",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Kent",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "www.amt-consult.co.uk",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "No"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": "2027-06-10T00:00:00.0000000"
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": "1970-01-01T00:00:00.0000000"
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "ChandlerTuck"
+      },
+      {
+        "name": "TLC Customer",
+        "value": null
+      },
+      {
+        "name": "Website Check Required",
+        "value": null
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 199,
+    "additionalAddressInformation": "",
+    "address1": "Apira Ltd, Office 3.16, Golden Cross House",
+    "address2": "8 Duncannon Street",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Apira Ltd, Office 3.16, Golden Cross House",
+    "billingAddress2": "8 Duncannon Street",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "London",
+    "billToCountryID": 236,
+    "billToState": "",
+    "billToZipCode": "WC2N 4JF",
+    "city": "London",
+    "classification": 201,
+    "companyCategoryID": 1,
+    "companyName": "Apira Ltd",
+    "companyNumber": "API001",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:13.197Z",
+    "createdByResourceID": 29682885,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2024-10-01T08:26:59.347Z",
+    "lastTrackedModifiedDateTime": "2024-10-01T08:26:59.33Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 330 124 1966",
+    "postalCode": "WC2N 4JF",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": 5,
+    "taxID": "",
+    "taxRegionID": 2,
+    "territoryID": null,
+    "webAddress": "https://apira.co.uk",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "No"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": "2025-05-01T00:00:00.0000000"
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": null
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "apira"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": "Yes"
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 213,
+    "additionalAddressInformation": "",
+    "address1": null,
+    "address2": null,
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "",
+    "billingAddress2": "",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "",
+    "billToCountryID": 236,
+    "billToState": "",
+    "billToZipCode": "",
+    "city": "",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Egerton Stephens Partnership",
+    "companyNumber": "",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:14.54Z",
+    "createdByResourceID": 29682886,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": false,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2024-11-15T10:50:30.877Z",
+    "lastTrackedModifiedDateTime": "2024-11-15T10:50:30.877Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "07973931050",
+    "postalCode": "",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "www.egertonstephens.com",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "Yes"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": null
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": null
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": "2.0000"
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "egertonstephens"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": "No"
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 214,
+    "additionalAddressInformation": "",
+    "address1": "Fly Signs Limited",
+    "address2": "Sign Studio, Barr House, York Road",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Fly Signs Limited",
+    "billingAddress2": "Sign Studio, Barr House, York Road",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Shiptonthorpe",
+    "billToCountryID": 236,
+    "billToState": "Yorkshire",
+    "billToZipCode": "YO43 3PH",
+    "city": "Shiptonthorpe",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Fly Signs Limited",
+    "companyNumber": "",
+    "companyType": 6,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:14.603Z",
+    "createdByResourceID": 29682885,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": null,
+    "invoiceNonContractItemsToParentCompany": null,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": false,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2018-11-16T15:45:09Z",
+    "lastTrackedModifiedDateTime": "2016-03-31T15:18:14.603Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682885,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 1430874075",
+    "postalCode": "YO43 3PH",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Yorkshire",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "flysigns.co.uk/",
+    "userDefinedFields": []
+  }
+},
+{
+  "item": {
+    "id": 215,
+    "additionalAddressInformation": "",
+    "address1": "22 Barn Rise",
+    "address2": null,
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "22 Barn Rise",
+    "billingAddress2": "",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Wembley",
+    "billToCountryID": 236,
+    "billToState": "Middlesex",
+    "billToZipCode": "HA9 9NQ",
+    "city": "Wembley",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Golden Visa Real Estate",
+    "companyNumber": "",
+    "companyType": 6,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:14.633Z",
+    "createdByResourceID": 29682885,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": null,
+    "invoiceNonContractItemsToParentCompany": null,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": false,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2018-11-16T15:43:09Z",
+    "lastTrackedModifiedDateTime": "2016-03-31T15:18:14.633Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682885,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 203 598 0986",
+    "postalCode": "HA9 9NQ",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Middlesex",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "goldenvisarealestate.com/",
+    "userDefinedFields": []
+  }
+},
+{
+  "item": {
+    "id": 217,
+    "additionalAddressInformation": "",
+    "address1": "Unit 2 West Hill House",
+    "address2": "West Hill",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "Unit 2 West Hill House",
+    "billingAddress2": "West Hill",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "Dartford",
+    "billToCountryID": 236,
+    "billToState": "Kent",
+    "billToZipCode": "DA1 2EU",
+    "city": "Dartford",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "HSC Candela",
+    "companyNumber": "HSC001",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:14.71Z",
+    "createdByResourceID": 29682886,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2023-04-16T15:00:32.61Z",
+    "lastTrackedModifiedDateTime": "2023-04-16T15:00:32.61Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 1322 280324",
+    "postalCode": "DA1 2EU",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "Kent",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "www.hsccandela.com/",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "No"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": null
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": "1970-01-01T00:00:00.0000000"
+      },
+      {
+        "name": "Lead Source",
+        "value": null
+      },
+      {
+        "name": "Number of Employees",
+        "value": null
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "HSCCandela"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": "No"
+      }
+    ]
+  }
+},
+{
+  "item": {
+    "id": 218,
+    "additionalAddressInformation": "",
+    "address1": "120 Moorgate",
+    "address2": null,
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "120 Moorgate",
+    "billingAddress2": "",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "London",
+    "billToCountryID": 236,
+    "billToState": "",
+    "billToZipCode": "EC2M 6UR",
+    "city": "London",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "iTip",
+    "companyNumber": "",
+    "companyType": 6,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:14.743Z",
+    "createdByResourceID": 29682899,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": null,
+    "invoiceNonContractItemsToParentCompany": null,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": false,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2018-11-16T15:41:00Z",
+    "lastTrackedModifiedDateTime": "2018-11-16T15:41:00Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682916,
+    "parentCompanyID": null,
+    "phone": "+44 (0) 207 048 9070",
+    "postalCode": "EC2M 6UR",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "itip.org.uk/",
+    "userDefinedFields": []
+  }
+},
+{
+  "item": {
+    "id": 220,
+    "additionalAddressInformation": "",
+    "address1": "34 St George Street",
+    "address2": "Mayfair",
+    "alternatePhone1": "",
+    "alternatePhone2": "",
+    "apiVendorID": null,
+    "assetValue": null,
+    "billToCompanyLocationID": null,
+    "billToAdditionalAddressInformation": "",
+    "billingAddress1": "34 St George Street",
+    "billingAddress2": "Mayfair",
+    "billToAddressToUse": 1,
+    "billToAttention": "",
+    "billToCity": "London",
+    "billToCountryID": 236,
+    "billToState": "",
+    "billToZipCode": "W1S 2FN",
+    "city": "London",
+    "classification": null,
+    "companyCategoryID": 1,
+    "companyName": "Lordale UK",
+    "companyNumber": "LOR001",
+    "companyType": 1,
+    "competitorID": null,
+    "countryID": 236,
+    "createDate": "2016-03-31T15:18:14.807Z",
+    "createdByResourceID": 29682885,
+    "currencyID": 5,
+    "fax": "",
+    "impersonatorCreatorResourceID": null,
+    "invoiceEmailMessageID": 1,
+    "invoiceMethod": 2,
+    "invoiceNonContractItemsToParentCompany": false,
+    "invoiceTemplateID": 102,
+    "isActive": true,
+    "isClientPortalActive": true,
+    "isEnabledForComanaged": false,
+    "isTaskFireActive": false,
+    "isTaxExempt": false,
+    "lastActivityDate": "2025-01-09T15:52:37.47Z",
+    "lastTrackedModifiedDateTime": "2025-01-09T15:52:37.47Z",
+    "marketSegmentID": null,
+    "ownerResourceID": 29682925,
+    "parentCompanyID": null,
+    "phone": "+44 20 7151 4129",
+    "postalCode": "W1S 2FN",
+    "purchaseOrderTemplateID": null,
+    "quoteEmailMessageID": 2,
+    "quoteTemplateID": 1,
+    "sicCode": "",
+    "state": "",
+    "stockMarket": "",
+    "stockSymbol": "",
+    "surveyCompanyRating": null,
+    "taxID": "",
+    "taxRegionID": null,
+    "territoryID": null,
+    "webAddress": "lordale.uk",
+    "userDefinedFields": [
+      {
+        "name": "Account Reviews Required",
+        "value": "Yes"
+      },
+      {
+        "name": "Chase 24 Hour Opportunity",
+        "value": "Yes"
+      },
+      {
+        "name": "Current Renewal Date",
+        "value": null
+      },
+      {
+        "name": "DataSet",
+        "value": null
+      },
+      {
+        "name": "Has 24 Hour Support",
+        "value": "No"
+      },
+      {
+        "name": "Last Review Meeting",
+        "value": "1970-01-01T00:00:00.0000000"
+      },
+      {
+        "name": "Lead Source",
+        "value": "Referral"
+      },
+      {
+        "name": "Number of Employees",
+        "value": "1.0000"
+      },
+      {
+        "name": "Re seller Account Manager",
+        "value": null
+      },
+      {
+        "name": "Sharepoint Site",
+        "value": "lordale"
+      },
+      {
+        "name": "TLC Customer",
+        "value": "No"
+      },
+      {
+        "name": "Website Check Required",
+        "value": "No"
+      }
+    ]
+  }
+}

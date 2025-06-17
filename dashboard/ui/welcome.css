@@ -1,0 +1,831 @@
+/* General body styling */
+html, body { /* Apply to both html and body */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/skyecloudbackground.jpg'); /* Set background image */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Keep background fixed when scrolling */
+    display: flex; /* Use flexbox for centering the main-wrapper */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    min-width: 100vw; /* Ensure body takes full viewport width */
+    box-sizing: border-box; /* Crucial for consistent sizing */
+    overflow-x: hidden; /* Hide horizontal scrollbar for the entire page */
+    overflow-y: hidden; /* Hide vertical scrollbar for the entire page */
+}
+
+/* Apply box-sizing globally */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Main wrapper to mimic the application window */
+.main-wrapper {
+    background-color: #e0e0e0; /* Light grey background */
+    border: 1px solid #a0a0a0; /* Grey border */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    width: 95vw; /* Maximize width relative to viewport */
+    height: 95vh; /* Maximize height relative to viewport */
+    max-width: 1700px; /* Max width for larger screens */
+    max-height: 1000px; /* Max height for larger screens */
+    min-width: 320px; /* Prevent it from becoming too small */
+    min-height: 400px; /* Prevent it from becoming too small */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Hide all overflow */
+    margin: auto; /* This will center it when using flexbox on body */
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0); /* Gradient header */
+    padding: 15px 25px;
+    border-bottom: 1px solid #d0d0d0;
+    position: relative; /* For the orange line */
+    overflow: hidden; /* Ensure header content doesn't cause overflow */
+}
+
+.header::after { /* Orange line in the header - REMOVED, now a separate div */
+    content: none; /* Remove this as it's now a separate div */
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    /* Flex-wrap allows content to wrap on smaller screens if necessary */
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    width: 150px; /* Increased width to show full logo text */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* More space between logo and text */
+    border-radius: 0; /* Remove border-radius to show full rectangular logo */
+}
+
+.header-text {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #444;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.subheader-text {
+    font-size: 0.9em;
+    color: #666;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* New style for the sign out link (from welcome.php inline style) */
+.sign-out-link {
+    color: #fff; /* White color */
+    background-color: #dc3545; /* Red background for sign out */
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.sign-out-link:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* New style for the orange line (from welcome.php inline style) */
+#orange-line {
+    width: 100%;
+    height: 10px; /* The thickness of the orange line */
+    background-image: linear-gradient(to right, blue,white,yellowgreen);
+    margin-top: 0; /* Adjusted margin as it's now below header */
+    margin-bottom: 0;
+}
+
+/* Content wrapper (from welcome.php inline style) */
+.content-wrapper {
+    display: flex;
+    gap: 60px; /* Added space between sidebar and content */
+    padding: 20px; /* Padding for the entire content area */
+    flex-grow: 1; /* Important: Allow content-wrapper to grow */
+    overflow: hidden; /* Hide all overflow to remove scrollbars */
+    align-items: flex-start; /* ALIGNED children to the top */
+}
+
+/* Left sidebar styling */
+.left-sidebar {
+    width: 300px; /* Fixed width for the sidebar */
+    background-color: #f0f0f0; /* Light grey background */
+    /* border-right: 1px solid #d0d0d0; Removed border, replaced by gap */
+    padding: 20px; /* Padding inside the sidebar */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05); /* Subtle shadow on the right */
+    display: flex; /* Use flexbox for internal layout */
+    flex-direction: column; /* Stack sections vertically */
+    overflow-y: auto; /* Enable vertical scroll if content overflows */
+    overflow-x: hidden; /* Hide horizontal scroll */
+}
+
+.sidebar-section {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+.sidebar-section h3 {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 10px;
+    cursor: pointer; /* Indicate it's clickable for expand/collapse */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Toggle icon for sidebar sections */
+.sidebar-section h3 .toggle-icon {
+    transition: transform 0.3s ease; /* Smooth icon rotation */
+}
+
+/* When the header is collapsed, rotate the icon to point right */
+.sidebar-section h3.collapsed .toggle-icon {
+    transform: rotate(90deg); /* Icon points right when collapsed (from fa-angle-down) */
+}
+
+/* Styles for the content that will be toggled */
+.sidebar-content {
+    max-height: 2000px; /* A large value to ensure content is visible when expanded */
+    overflow: hidden; /* Hide content that exceeds max-height */
+    transition: max-height 0.5s ease-in-out; /* Smooth slide-in/slide-out effect */
+}
+
+/* When the content is hidden, set max-height to 0 */
+.sidebar-content.hidden {
+    max-height: 0;
+}
+
+
+.sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-links li {
+    margin-bottom: 8px;
+    text-align: center; /* Center the buttons within their list items */
+}
+
+.sidebar-links a {
+    text-decoration: none;
+    color: #007bff; /* Blue for links */
+    display: inline-block; /* Changed from block to inline-block to allow width control */
+    padding: 5px 0;
+    transition: color 0.2s ease;
+    max-width: 180px; /* Shrink button length */
+    width: 100%; /* Ensures it takes up to max-width */
+    text-align: center; /* Center the text inside the button */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    margin: 0 auto; /* Center the button within its parent */
+}
+
+.sidebar-links a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styles for the "News" items - NEW */
+.news-item {
+    margin-bottom: 8px; /* Space between news items */
+}
+
+.news-item a {
+    display: block; /* Make the link take full width */
+    padding: 8px 15px; /* Add padding like a button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    font-size: 0.9em; /* Adjust font size */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.news-item a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.news-item .fas.fa-circle-info {
+    color: white; /* Make the icon white */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Styles for Quick Actions buttons (already mostly defined but refined) - NEW */
+.sidebar-content .action-button { /* Target specifically action buttons within sidebar content */
+    display: block; /* Ensure they take full width */
+    width: auto; /* Allow content-based width or max-width if needed */
+    padding: 8px 15px; /* Padding for button look */
+    background-color: #28a745; /* Green background for actions (example) */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-bottom: 8px; /* Space between buttons */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-content .action-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Content area styling (general) */
+.content-area {
+    flex-grow: 3; /* Allows content area to fill remaining space */
+    padding: 0; /* Removed padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the start */
+    align-items: center;
+    overflow: hidden; /* Ensure all scrolling is hidden for content area */
+}
+
+/* Specific styling for welcome page content */
+.content-area.welcome-content {
+    padding: 0; /* Removed padding */
+    align-items: flex-start; /* Align content to the left for app grid */
+    width: 100%; /* Ensure it takes full width to prevent overflow from children */
+}
+
+.navigation-path { /* This seems to be replaced by .folder-path, but keeping for reference */
+    width: 100%;
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.navigation-path .separator {
+    margin: 0 5px;
+    color: #bbb;
+}
+
+.navigation-path .current-folder-text {
+    font-weight: bold;
+}
+
+/* Styles for folder path display (from welcome.php inline style) */
+.folder-path {
+    color: #6c757d;
+    font-weight: bold; /* Make it bold */
+    font-size: 1.1em; /* Make it bigger */
+    margin-top: 10px; /* Increased margin from header */
+    margin-bottom: 10px; /* Margin below the path */
+    text-align: center; /* Center the path text */
+    width: 100%; /* Take full width */
+    padding: 0 20px; /* Add some padding to match content area */
+    box-sizing: border-box; /* Include padding in element's total width */
+}
+
+
+.application-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid, 200px min */
+    gap: 20px; /* Space between app icons */
+    width: 100%;
+    /* max-width: 900px; -- REMOVED to allow it to take more space if available */
+    padding: 0; /* Removed padding */
+    justify-content: center; /* Center items in the grid */
+}
+
+.app-item, .folder-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 15px 10px;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    background-color: #fcfcfc;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    height: 180px; /* Adjusted height for better responsiveness */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.app-item:hover, .folder-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: #f0f0f0;
+}
+
+.app-icon {
+    width: 80px; /* Icon size */
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Slightly rounded corners for icons */
+    object-fit: contain; /* Ensure image fits without cropping */
+}
+
+.app-item .app-icon { /* Specific for app-item to ensure FA icons take correct size */
+    font-size: 80px; /* Font Awesome icon size */
+    color: #007bff; /* Example color for icons, adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; /* Ensure icon container is sized */
+    width: 80px; /* Ensure icon container is sized */
+}
+
+/* If you need specific icon colors for app items not using image */
+.app-item .fa-signal, .app-item .fa-headset, .app-item .fa-ticket-alt, .app-item .fa-cogs,
+.app-item .fa-cloud, .app-item .fa-microsoft, .app-item .fa-envelope,
+.app-item .fa-user-cog, .app-item .fa-shield-alt, .app-item .fa-envelope-open-text,
+.app-item .fa-laptop-code, .app-item .fa-reply-all, .app-item .fa-google {
+    color: #007bff; /* Default blue for most Font Awesome icons */
+}
+/* You can override specific icons if needed, e.g.: */
+.app-item .fab.fa-google {
+    color: #DB4437; /* Google red */
+}
+.app-item .fa-microsoft {
+    color: #00A4EF; /* Microsoft blue */
+}
+
+
+.app-name {
+    font-size: 0.9em;
+    font-weight: 600;
+    word-break: break-word; /* Allow long names to break */
+}
+
+/* Styling for the folder buttons (main grid) from welcome.php inline style */
+.folder-button {
+    background-color: #6c757d; /* Darker grey for folder button */
+    color: white;
+    flex-direction: column; /* Icon and text stacked */
+}
+.folder-button .app-icon { /* Adjust icon size specifically for folder buttons */
+     width: 64px;
+     height: 64px;
+     font-size: 64px; /* For Font Awesome icons */
+}
+.folder-button .app-name {
+    color: white; /* White text for folder names */
+}
+.folder-button:hover {
+    background-color: #5a6268; /* Darker on hover */
+}
+
+
+/* Styles for the "folder pages" from welcome.php inline style */
+.folder-page {
+    display: none; /* Hidden by default, shown by JS */
+    padding: 10px; /* Adjusted padding for folder pages */
+    animation: fadeIn 0.5s ease-out; /* Smooth transition */
+    /* NEW: Change to grid layout like main applications */
+    display: grid; /* Changed from flex to grid */
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Similar to .application-grid, adjusted min width */
+    gap: 10px; /* Space between buttons on folder page, consistent with app-grid */
+    border-radius: 8鸣;
+    flex-grow: 1; /* Allow folder page to take available space */
+    width: 100%; /* Take full width of its parent */
+    max-width: 900px; /* Limit max width for readability of items */
+    box-sizing: border-box;
+    /* justify-content and align-items are not needed for grid with auto-fill */
+    overflow: hidden; /* Hide all overflow to remove scrollbar */
+}
+
+.folder-page h2 {
+    /* For grid layout, h2 should span all columns. Add this new property: */
+    grid-column: 1 / -1; /* Spans all columns */
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* Adjusted margin */
+    font-size: 1.6em; /* Adjusted font size */
+}
+
+.back-button-container {
+    text-align: center;
+    margin-top: 25px; /* Adjusted margin */
+    grid-column: 1 / -1; /* Make back button span all columns in grid */
+}
+
+.back-button {
+    display: inline-flex; /* Use flex to align icon and text */
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    padding: 8px 15px; /* Adjusted padding */
+    background-color: #6c757d; /* Grey back button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em; /* Adjusted font size */
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Form section (for login.php) - Keeping these styles but they are not used in welcome.php */
+.form-section {
+    width: 100%;
+    max-width: 450px; /* Limit form width */
+    padding: 20px;
+    background-color: #f8f8f8; /* Slightly different background for form section */
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 30px; /* Space between form and timeout message */
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.05); /* Inner shadow */
+}
+
+.form-row {
+    display: flex;
+    align-items: center; /* Align label and input */
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    flex: 0 0 150px; /* Fixed width for labels */
+    text-align: right;
+    margin-right: 15px;
+    font-weight: 600;
+    color: #555;
+    font-size: 0.95em;
+}
+
+.form-row input[type="text"],
+.form-row input[type="password"] {
+    flex-grow: 1; /* Input takes remaining space */
+    padding: 8px 12px;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    font-size: 1em;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-row input[type="text"]:focus,
+.form-row input[type="password"]:focus {
+    border-color: #007bff;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1), 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+/* Error message styling */
+.message.error {
+    color: #cc0000;
+    background-color: #ffe0e0;
+    border: 1px solid #ff9999;
+    padding: 8px 15px;
+    margin-top: -10px; /* Pull it closer to the field */
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+
+/* Security warning styling */
+.security-warning {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    background-color: #fff;
+    text-align: left;
+}
+
+.security-warning h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #444;
+    font-size: 1.1em;
+}
+
+.security-warning .warning-text {
+    color: #cc0000; /* Red text as in the image */
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Sign in button styling */
+.form-group-button {
+    text-align: right; /* Align button to the right */
+    margin-top: 20px;
+}
+
+.btn-signin {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.05em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-signin:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Timeout message styling */
+.timeout-message {
+    width: 100%;
+    max-width: 600px; /* Limit width similar to form */
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #d0d0d0; /* Separator line */
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; /* Align logos to the bottom */
+    padding: 15px 25px;
+    background-color: #e0e0e0;
+    border-top: 1px solid #d0d0d0;
+    height: 70px; /* Fixed height for the footer area */
+    position: relative; /* For footer logo positioning */
+    overflow: hidden; /* Prevent horizontal overflow in footer */
+}
+
+.footer-logo {
+    width: 120px; /* Adjust footer logo size */
+    height: auto;
+    opacity: 0.8; /* Slightly faded */
+    position: absolute;
+    bottom: 10px; /* Position from the bottom */
+}
+
+.footer-logo.left {
+    left: 25px;
+}
+
+.footer-logo.right {
+    right: 25px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .content-wrapper {
+        flex-direction: column; /* Stack sidebar and main content on smaller screens */
+        padding: 15px;
+    }
+
+    .left-sidebar {
+        width: 100%; /* Full width for sidebar on small screens */
+        min-width: unset;
+        margin-bottom: 20px; /* Space between sidebar and grid */
+    }
+
+    .application-grid {
+        padding: 0; /* Removed padding from grid when stacked */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust min-width for grid items */
+    }
+    .app-item, .folder-button {
+        height: 150px; /* Adjust height for smaller grid items */
+    }
+
+
+    /* Adjust header for smaller screens */
+    .header {
+        flex-direction: column; /* Stack logo area and sign out link */
+        height: auto; /* Auto height to accommodate stacked content */
+        padding: 15px;
+    }
+
+    .sign-out-link {
+        position: static; /* Remove absolute positioning */
+        margin-top: 10px; /* Add margin when stacked */
+        width: fit-content; /* Adjust width to content */
+        align-self: flex-end; /* Align to the right when stacked */
+    }
+
+    .folder-page {
+        padding: 15px; /* Adjust padding for folder pages on smaller screens */
+        gap: 15px; /* Reduce gap for smaller screens, consistent with app-grid */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Match main grid responsiveness */
+    }
+
+    /* .folder-link-button was removed */
+
+    .back-button {
+        padding: 7px 12px;
+        font-size: 0.85em;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .main-wrapper {
+        width: 98vw; /* Take more of the viewport on smaller screens */
+        height: 98vh;
+        min-height: 450px;
+        min-width: 300px;
+        margin: 10px auto; /* Re-center with auto margins if flexbox on body is not sufficient */
+    }
+
+    .header {
+        padding: 10px 15px;
+    }
+
+    .header-logo {
+        width: 120px;
+    }
+
+    .header-text {
+        font-size: 1.2em;
+    }
+
+    .subheader-text {
+        font-size: 0.8em;
+    }
+
+    .application-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Further adjust grid for smaller screens */
+        gap: 15px;
+    }
+
+    .app-item, .folder-button {
+        height: 150px; /* Further adjust height */
+    }
+
+    .app-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .app-item .app-icon { /* Specific for app-item to ensure FA icons take correct size */
+        font-size: 60px; /* Font Awesome icon size */
+        height: 60px;
+        width: 60px;
+    }
+
+    .app-name {
+        font-size: 0.8em;
+    }
+
+    /* Form section (for login.php) */
+    .form-section {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .form-row {
+        flex-direction: column; /* Stack label and input vertically */
+        align-items: flex-start;
+    }
+
+    .form-row label {
+        flex: none; /* Remove fixed width */
+        width: 100%;
+        text-align: left;
+        margin-right: 0;
+        margin-bottom: 5px; /* Space between label and input */
+    }
+
+    .form-row input[type="text"],
+    .form-row input[type="password"] {
+        width: 100%; /* Full width for inputs */
+    }
+
+    .form-group-button {
+        text-align: center; /* Center button on smaller screens */
+    }
+
+    .timeout-message {
+        max-width: 100%;
+        font-size: 0.8em;
+    }
+
+    .folder-page {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Match main grid responsiveness */
+    }
+
+    .footer {
+        height: 60px;
+        padding: 10px 15px;
+    }
+
+    .footer-logo {
+        width: 100px;
+        bottom: 5px;
+    }
+
+    .footer-logo.left {
+        left: 15px;
+    }
+
+    .footer-logo.right {
+        right: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-wrapper {
+        min-height: 400px;
+        margin: 5px auto;
+        border-radius: 5px;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .header-logo {
+        width: 100px; /* Adjust logo size for very small screens */
+        height: auto;
+    }
+
+    .header-text {
+        font-size: 1em;
+    }
+
+    .subheader-text {
+        font-size: 0.7em;
+    }
+
+    .application-grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Further adjust grid for tiny screens */
+        gap: 10px;
+    }
+
+    .app-item, .folder-button {
+        height: 100px; /* Further adjust height */
+        padding: 10px 5px;
+    }
+
+    .app-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+    }
+
+    .app-name {
+        font-size: 0.7em;
+    }
+
+    .folder-page {
+        padding: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Match main grid responsiveness */
+        gap: 10px;
+    }
+
+    .folder-page h2 {
+        font-size: 1.4em;
+        margin-bottom: 15px;
+    }
+
+    /* .folder-link-button was removed */
+
+    .back-button {
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+
+    /* Form section (for login.php) */
+    .form-section {
+        padding: 10px;
+    }
+
+    .security-warning {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .btn-signin {
+        padding: 8px 20px;
+        font-size: 1em;
+    }
+
+    .footer-logo {
+        width: 80px;
+    }
+}
