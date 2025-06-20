@@ -1,0 +1,10 @@
+[
+  {
+    "id": 101,
+    "companyId": 1,
+    "name": "Jane Doe",
+    "email": "jane@globex.com",
+    "position": "CTO",
+    "tags": ["VIP", "Main Contact"]
+  }
+]
