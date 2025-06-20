@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRM Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CRM Dashboard</h1>
+
+    <input type="text" id="searchInput" placeholder="Search by name...">
+    
+    <div class="actions">
+      <button onclick="showCompanyForm()">Add Company</button>
+      <button onclick="showContactForm()">Add Contact</button>
+    </div>
+
+    <div id="results"></div>
+  </div>
+
+  <!-- Company Form -->
+  <div class="modal" id="companyForm">
+    <h3>Company</h3>
+    <input id="companyId" type="hidden">
+    <input id="companyName" type="text" placeholder="Name">
+    <input id="companyPhone" type="text" placeholder="Phone">
+    <input id="companyWebsite" type="text" placeholder="Website">
+    <input id="companyAddress" type="text" placeholder="Address">
+    <button onclick="saveCompany()">Save</button>
+    <button onclick="hideForm('companyForm')">Cancel</button>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="modal" id="contactForm">
+    <h3>Contact</h3>
+    <input id="contactId" type="hidden">
+    <input id="contactName" type="text" placeholder="Name">
+    <input id="contactEmail" type="text" placeholder="Email">
+    <input id="contactPosition" type="text" placeholder="Position">
+    <select id="contactCompany"></select>
+    <label><input type="checkbox" id="tagVIP"> VIP</label>
+    <label><input type="checkbox" id="tagMain"> Main Contact</label>
+    <button onclick="saveContact()">Save</button>
+    <button onclick="hideForm('contactForm')">Cancel</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
